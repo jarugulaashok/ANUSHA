@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Carousel</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="assets/css/bxslider/jquery.bxslider.css"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-12">
+
+            <div class="carousel-wrapper col-xs-10 col-md-12 col-md-offset-0 col-xs-offset-1">
+                <div class="bx-wrapper" style="max-width: 1145px;">
+                    <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 232px;">
+                        <ul id="carouse" style="width: 715%; position: relative; transition-duration: 0.5s; transform: translate3d(-258px, 0px, 0px);">
+                            <li class="slide">
+                                <img src="http://placehold.it/350x150&text=FooBar10" alt="" class="img-responsive">
+                                <h2 class="h2  xs-center"><a href="/product/z-pass-plus/">Z Pass+</a></h2>
+                                <p>Parent mobile child ridership application</p>
+                            </li>
+
+                            <li class="slide">
+                                <img src="http://placehold.it/350x150&text=FooBar10" alt="" class="img-responsive">
+                                <h2 class="h2  xs-center"><a href="/product/ground-traffic-control/">Ground Traffic Control</a></h2>
+                                <p>Secure web-based fleet management portal</p>
+                            </li>
+
+                            <li class="slide">
+                                <img src="http://placehold.it/350x150&text=FooBar10" alt="" class="img-responsive">
+                                <h2 class="h2  xs-center"><a href="/product/2020-android-tablet/">2020 Android Tablet</a></h2>
+                                <p>Secure Android mobile driver productivity tool</p>
+                            </li>
+
+                            <li class="slide">
+                                <img src="http://placehold.it/350x150&text=FooBar10" alt="" class="img-responsive">
+                                <h2 class="h2  xs-center"><a href="/product/z-pass-ridership-tracking/">Z Pass</a></h2>
+                                <p>Safe and secure ridership reporting</p>
+                            </li>
+
+                            <li class="slide">
+                                <img src="http://placehold.it/350x150&text=FooBar10" alt="" class="img-responsive">
+                                <h2 class="h2  xs-center"><a href="/product/2010-electronic-inspection/">2010 EVIR</a></h2>
+                                <p>Electronic Verified Inspection Report - EVIR</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="assets/js/jquery/jquery-1.12.1.min.js"></script>
+    <script src="assets/js/bxslider/jquery.bxslider.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.slider5').bxSlider({
+                slideWidth: 300,
+                minSlides: 2,
+                maxSlides: 3,
+                moveSlides: 1,
+                slideMargin: 10
+            });
+        });
+    </script>
+</body>
+</html>

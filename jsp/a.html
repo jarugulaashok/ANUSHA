@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Course Details.</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+        .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+            right: 0;
+        }
+        .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+            left: 0px;
+        }
+        .carousel-inner {
+            margin: auto;
+            width: 80%;
+            border: 3px solid #73AD21;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<form name="coursedetails" id="coursedetails">
+    <div class="container">
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active"><a href="#instructor" data-toggle="tab">Instructor</a></li>
+            <li><a href="#learner" data-toggle="tab">Learner</a></li>
+        </ul>
+
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="instructor">
+                <div class="carousel slide multi-item-carousel" id="theCarousel">
+                    <div class="carousel-inner" id="carousel">
+                        <div class="item active" id="course">
+                            <div class="row text-left">
+                                <div class="col-sm-2">
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="thumbnail">
+                                        <img src="image.jpg" class="tales" alt="image">
+                                        <p>Course Name 1</p>
+                                        <p>Role</p>
+                                        <p>Start Date</p>
+                                        <p>End Date</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="thumbnail">
+                                        <img src="image.jpg" class="tales" alt="image">
+                                        <p>Course Name 2</p>
+                                        <p>Role</p>
+                                        <p>Start Date</p>
+                                        <p>End Date</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="thumbnail">
+                                        <img src="image.jpg" class="tales" alt="image">
+                                        <p>Course Name 3</p>
+                                        <p>Role</p>
+                                        <p>Start Date</p>
+                                        <p>End Date</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="thumbnail">
+                                        <img src="image.jpg" class="tales" alt="image">
+                                        <p>Course Name 4</p>
+                                        <p>Role</p>
+                                        <p>Start Date</p>
+                                        <p>End Date</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row text-left">
+                                <div class="col-sm-2">
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="thumbnail">
+                                        <img src="image.jpg" class="tales" alt="image">
+                                        <p>Course Name5</p>
+                                        <p>Role</p>
+                                        <p>Start Date</p>
+                                        <p>End Date</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="thumbnail">
+                                        <img src="image.jpg" class="tales" alt="image">
+                                        <p>Course Name6</p>
+                                        <p>Role</p>
+                                        <p>Start Date</p>
+                                        <p>End Date</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="thumbnail">
+                                        <img src="image.jpg" class="tales" alt="image">
+                                        <p>Course Name7</p>
+                                        <p>Role</p>
+                                        <p>Start Date</p>
+                                        <p>End Date</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="thumbnail">
+                                        <img src="image.jpg" class="tales" alt="image">
+                                        <p>Course Name8</p>
+                                        <p>Role</p>
+                                        <p>Start Date</p>
+                                        <p>End Date</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left" aria-hidden="true"></i></a>
+                    <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right" aria-hidden="true"></i></a>
+                </div>
+
+                <button type="button" id="course" class="btn btn-info btn-xs" data-toggle="tab" data-target="#instructor1">View More</button>
+            </div>
+
+            <div class="tab-pane fade " id="instructor1">
+                <div class="row text-left">
+                    <div class="col-sm-3">
+                        <div class="thumbnail">
+                            <img src="image.jpg" class="tales" alt="image">
+
+                            <p>Course Name</p>
+
+                            <p>Role</p>
+
+                            <p>Start Date</p>
+
+                            <p>End Date</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="thumbnail">
+                            <img src="image.jpg" class="tales" alt="image">
+
+                            <p>Course Name</p>
+
+                            <p>Role</p>
+
+                            <p>Start Date</p>
+
+                            <p>End Date</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="thumbnail">
+                            <img src="image.jpg" class="tales" alt="image">
+
+                            <p>Course Name</p>
+
+                            <p>Role</p>
+
+                            <p>Start Date</p>
+
+                            <p>End Date</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="thumbnail">
+                            <img src="image.jpg" class="tales" alt="image">
+
+                            <p>Course Name</p>
+
+                            <p>Role</p>
+
+                            <p>Start Date</p>
+
+                            <p>End Date</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="thumbnail">
+                            <img src="image.jpg" class="tales" alt="image">
+
+                            <p>Course Name</p>
+
+                            <p>Role</p>
+
+                            <p>Start Date</p>
+
+                            <p>End Date</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="thumbnail">
+                            <img src="image.jpg" class="tales" alt="image">
+
+                            <p>Course Name</p>
+
+                            <p>Role</p>
+
+                            <p>Start Date</p>
+
+                            <p>End Date</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="thumbnail">
+                            <img src="image.jpg" class="tales" alt="image">
+
+                            <p>Course Name</p>
+
+                            <p>Role</p>
+
+                            <p>Start Date</p>
+
+                            <p>End Date</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="thumbnail">
+                            <img src="image.jpg" class="tales" alt="image">
+
+                            <p>Course Name</p>
+
+                            <p>Role</p>
+
+                            <p>Start Date</p>
+
+                            <p>End Date</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Learner data-->
+
+            <div class="tab-pane fade" id="learner">
+                <div class="carousel slide multi-item-carousel" id="theCarousel">
+                    <div class="carousel-inner" id="carousel">
+                <div class="item active">
+                    <div class="row text-left">
+                        <div class="col-sm-2">
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="thumbnail">
+                                <img src="image1.jpg" class="tales" alt="image1">
+
+                                <p>Course Name</p>
+
+                                <p>Role</p>
+
+                                <p>Start Date</p>
+
+                                <p>End Date</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="thumbnail">
+                                <img src="image1.jpg" class="tales" alt="image1">
+
+                                <p>Course Name</p>
+
+                                <p>Role</p>
+
+                                <p>Start Date</p>
+
+                                <p>End Date</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="thumbnail">
+                                <img src="image1.jpg" class="tales" alt="image1">
+
+                                <p>Course Name</p>
+
+                                <p>Role</p>
+
+                                <p>Start Date</p>
+
+                                <p>End Date</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="thumbnail">
+                                <img src="image1.jpg" class="tales" alt="image1">
+
+                                <p>Course Name</p>
+
+                                <p>Role</p>
+
+                                <p>Start Date</p>
+
+                                <p>End Date</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row text-left">
+                        <div class="col-sm-2">
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="thumbnail">
+                                <img src="image1.jpg" class="tales" alt="image1">
+
+                                <p>Course Name</p>
+
+                                <p>Role</p>
+
+                                <p>Start Date</p>
+
+                                <p>End Date</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <div class="thumbnail">
+                                <img src="image1.jpg" class="tales" alt="image1">
+
+                                <p>Course Name</p>
+
+                                <p>Role</p>
+
+                                <p>Start Date</p>
+
+                                <p>End Date</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="thumbnail">
+                                <img src="image1.jpg" class="tales" alt="image1">
+
+                                <p>Course Name</p>
+
+                                <p>Role</p>
+
+                                <p>Start Date</p>
+
+                                <p>End Date</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="thumbnail">
+                                <img src="image1.jpg" class="tales" alt="image1">
+
+                                <p>Course Name</p>
+
+                                <p>Role</p>
+
+                                <p>Start Date</p>
+
+                                <p>End Date</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left" aria-hidden="true"></i></a>
+                        <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right" aria-hidden="true"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-info btn-xs" data-toggle="tab" data-target="#learner1">View More</button>
+            </div>
+
+            <div class="tab-pane fade " id="learner1">
+
+    <div class="row text-left">
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <img src="image1.jpg" class="tales" alt="image1">
+
+                <p>Course Name</p>
+
+                <p>Role</p>
+
+                <p>Start Date</p>
+
+                <p>End Date</p>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <img src="image1.jpg" class="tales" alt="image1">
+
+                <p>Course Name</p>
+
+                <p>Role</p>
+
+                <p>Start Date</p>
+
+                <p>End Date</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <img src="image1.jpg" class="tales" alt="image1">
+
+                <p>Course Name</p>
+
+                <p>Role</p>
+
+                <p>Start Date</p>
+
+                <p>End Date</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <img src="image1.jpg" class="tales" alt="image1">
+
+                <p>Course Name</p>
+
+                <p>Role</p>
+
+                <p>Start Date</p>
+
+                <p>End Date</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <img src="image1.jpg" class="tales" alt="image1">
+
+                <p>Course Name</p>
+
+                <p>Role</p>
+
+                <p>Start Date</p>
+
+                <p>End Date</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <img src="image1.jpg" class="tales" alt="image1">
+
+                <p>Course Name</p>
+
+                <p>Role</p>
+
+                <p>Start Date</p>
+
+                <p>End Date</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <img src="image1.jpg" class="tales" alt="image1">
+
+                <p>Course Name</p>
+
+                <p>Role</p>
+
+                <p>Start Date</p>
+
+                <p>End Date</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <img src="image1.jpg" class="tales" alt="image1">
+
+                <p>Course Name</p>
+
+                <p>Role</p>
+
+                <p>Start Date</p>
+
+                <p>End Date</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+</form>
+</body>
+</html>
